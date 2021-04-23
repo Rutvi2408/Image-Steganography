@@ -14,23 +14,14 @@ import java.util.Vector;
 class EncodeDecode {
 
     private static final String TAG = EncodeDecode.class.getName();
-    //start and end message constants
+
     private static final String END_MESSAGE_COSTANT = "#!@";
     private static final String START_MESSAGE_COSTANT = "@!#";
     private static final int[] binary = {16, 8, 0};
     private static final byte[] andByte = {(byte) 0xC0, 0x30, 0x0C, 0x03};
     private static final int[] toShift = {6, 4, 2, 0};
 
-    /**
-     * This method represent the core of 2 bit Encoding
-     *
-     * @return : byte encoded pixel array
-     * @parameter :  integer_pixel_array {The integer RGB array}
-     * @parameter : image_columns {Image width}
-     * @parameter : image_rows {Image height}
-     * @parameter : messageEncodingStatus {object}
-     * @parameter : progressHandler {A handler interface, for the progress bar}
-     */
+
 
     private static byte[] encodeMessage(int[] integer_pixel_array, int image_columns, int image_rows,
                                         MessageEncodingStatus messageEncodingStatus, ProgressHandler progressHandler) {

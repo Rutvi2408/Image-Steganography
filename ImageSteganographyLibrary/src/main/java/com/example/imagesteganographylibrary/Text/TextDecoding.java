@@ -11,10 +11,7 @@ import com.example.imagesteganographylibrary.Utils.Utility;
 
 import java.util.List;
 
-/**
- * In this class all those method in EncodeDecode class are used to decode secret message in image.
- * All the tasks will run in background.
- */
+
 public class TextDecoding extends AsyncTask<ImageSteganography, Void, ImageSteganography> {
 
     //Tag for Log

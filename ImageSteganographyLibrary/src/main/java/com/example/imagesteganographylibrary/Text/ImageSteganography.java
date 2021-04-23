@@ -6,9 +6,7 @@ import android.util.Log;
 import com.example.imagesteganographylibrary.Utils.Crypto;
 import com.example.imagesteganographylibrary.Utils.Utility;
 
-/**
- * This main class of the text steganography
- */
+
 public class ImageSteganography {
 
     //Tag for Log
